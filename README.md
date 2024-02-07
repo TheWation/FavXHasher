@@ -5,6 +5,23 @@
 
 FavXHasher is a simple command-line tool designed to calculate the hash value of a favicon from a given URL. This tool can be particularly useful for detecting potential phishing websites by leveraging Shodan's search capabilities.
 
+```bash
+python FavXHasher.py -u http://example.com/favicon.ico
+```
+```bash
+____    __    ____  ___   .___________. __    ______   .__   __.
+\   \  /  \  /   / /   \  |           ||  |  /  __  \  |  \ |  |
+ \   \/    \/   / /  ^  \ `---|  |----`|  | |  |  |  | |   \|  |
+  \            / /  /_\  \    |  |     |  | |  |  |  | |  . `  |
+   \    /\    / /  _____  \   |  |     |  | |  `--'  | |  |\   |
+    \__/  \__/ /__/     \__\  |__|     |__|  \______/  |__| \__|
+
+                          FavXHasher v1.0
+
+[+] Favicon Hash is: -1264334574
+[!] Use http.favicon.hash:-1264334574 on Shodan to detect potential phishing websites.
+```
+
 ## Prerequisites
 
 - Python 3.7 or later
